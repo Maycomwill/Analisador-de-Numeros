@@ -58,13 +58,14 @@ function adicionar() {      // Adicionando o valor do input me um array"
         
 
         const soma = arrayNumeros.reduce((previousValue, currentValue) => previousValue + currentValue)
+        const media = soma/arrayNumeros.length
 
         liLength.innerHTML = `Ao todo, temos ${arrayNumeros.length} números cadastrados`;
         liOrdem.innerHTML = `A ordem crescente dos número foi ${arrayNumeros}`;
         liMaior.innerHTML = `O maior número na lista foi ${arrayNumeros[arrayNumeros.length-1]}`;
         liMenor.innerHTML = `O maior número na lista foi ${arrayNumeros[0]}`;
         liSoma.innerHTML = `A soma de todos os valores da lista foi ${soma}`;
-        liMedia.innerHTML = `A média simples dos valores da lista é ${soma/arrayNumeros.length}`
+        liMedia.innerHTML = `A média simples dos valores da lista é ${media.toFixed(2)}`
 
 
         ulResult.appendChild(liLength);
