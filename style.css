@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,200;0,400;0,600;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #22222C;
+    background: linear-gradient(#262642 100%, #22222C);
+    color: whitesmoke;
+    font-family: 'Exo 2', sans-serif;
+    
+}
+
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+}
+
+.card-main{
+    width: 100%;
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px 25px;
+    background-color: #6C31FF;
+    border-radius: 10px;
+    
+}
+
+.card-main h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 28pt;
+    font-weight: 700;
+    text-shadow: 0px 3px 5px rgba(34, 34, 48, 0.5);
+    
+}
+
+.input-div{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 5px 5px;
+}
+
+.input-div p{
+    font-size: 14pt;
+    margin-bottom: 10px;
+    
+}
+
+.input-div-intern{
+    display: flex;
+    flex:1;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.input-div input{
+    width: 50%;
+    height: 25.5px;
+    padding: 0px 5px;
+    outline: none;
+    border: 1px solid #262642;
+    box-shadow: 0px 3px 5px rgba(34, 34, 48, 0.2);
+    font-weight: 700;
+}
+
+.input-div button{
+    color: black;
+    height: 25px;
+    width: 150px;
+    font-size: 12pt;
+    background-color: #CDAFFF;
+    box-shadow: 0px 3px 5px rgba(34, 34, 48, 0.1);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-div button:hover{
+    background-color: #AA82FF;
+    box-shadow: 0px 3px 5px rgba(238, 230, 255, 0.2);
+    border: none;
+    cursor: pointer;
+}
+
+.caixa-de-texto{
+    color: black;
+    font-size: 12pt;
+    background-color: #CDAFFF;
+    border: 1px solid #262642;
+    box-shadow: 0px 3px 5px rgba(34, 34, 48, 0.2);
+    margin: 5px 5px;
+    width: 50%;
+    height: 100px;
+    overflow-y: scroll;
+    padding: 2px 5px;
+    line-height: 1.5em;
+}
+
+#analisar{
+    margin: 5px 5px;
+    color: black;
+    height: 25px;
+    width: 150px;
+    font-size: 12pt;
+    background-color: #CDAFFF;
+    box-shadow: 0px 3px 5px rgba(34, 34, 48, 0.1);
+    outline: none;
+    border: none; 
+    border-radius: 5px;
+}
+
+#analisar:hover{
+    background-color: #AA82FF;
+    box-shadow: 0px 3px 5px rgba(238, 230, 255, 0.2);
+    border: none;
+    cursor: pointer;
+}
+
+#resultadoText{
+    padding: 2px 5px;
+    color: black;
+    font-size: 12pt;
+    background-color: #CDAFFF;
+    border: 1px solid #262642;
+    box-shadow: 0px 3px 5px rgba(34, 34, 48, 0.2);
+    margin: 5px 5px;
+    width: 100%;
+    height: 100px;
+    overflow-y: scroll; 
+    line-height: 1.5em;
+
+}
