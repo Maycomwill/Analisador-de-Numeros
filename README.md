@@ -3,18 +3,18 @@
 
  
  <div align="center">
- <img src="#" width: 700px/>
+ <img src="https://github.com/Maycomwill/Analisador-de-Numeros/blob/main/assets/1.png?raw=true" width: 700px/>
  </div>
  
  <div align="center">
- <img src="#" width: 700px/>
+ <img src="https://github.com/Maycomwill/Analisador-de-Numeros/blob/main/assets/2.png?raw=true" width: 700px/>
  </div>
  
  <div align="center">
- <img src="#" width: 700px/>
+ <img src="https://github.com/Maycomwill/Analisador-de-Numeros/blob/main/assets/3.png?raw=true" width: 700px/>
  </div>
   <div align="center">
- <img src="#" width: 400px/>
+ <img src="https://github.com/Maycomwill/Analisador-de-Numeros/blob/main/assets/4.png?raw=true" width: 400px/>
  </div>
 
 
