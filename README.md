@@ -1,5 +1,5 @@
 # Analisador de Números
-    Analisador de números, exercício proposto pelo custo de JS do Curso em Vídeo
+    Analisador de números, exercício proposto pelo curso de JS do Curso em Vídeo
 
  
  <div align="center">
