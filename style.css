@@ -16,7 +16,7 @@ body{
     align-items: center;
     background: #22222C;
     background: linear-gradient(#262642 100%, #22222C);
-    color: whitesmoke;
+    color: white;
     font-family: 'Exo 2', sans-serif;
     
 }
@@ -153,4 +153,5 @@ body{
 
 ul{
     list-style: none;
+    
 }

@@ -14,15 +14,19 @@ const AdicionandoNumero = (event) => {      // Adquirindo valor do input atraves
 };
 
 
-function adicionar() {      // Adicionando o valor do input me um array"
+function adicionar() { // Adicionando o valor do input me um array"
+    inputListener.focus(); 
+    inputListener.value= '';  
     if (arrayNumeros.includes(numeroAdicionado)) {
-        alert('Já encontrado na lista!')
+        window.alert('Já encontrado na lista!')
         return
     }
     if (!numeroAdicionado || numeroAdicionado < 0 || numeroAdicionado > 100) {
-        alert('Número inválido!')
+        window.alert('Número inválido!')
         return
     }
+    ulResult.innerHTML = ''
+
     arrayNumeros.push(numeroAdicionado);
     mostrarNumerosDaLista();
 
@@ -37,6 +41,7 @@ function adicionar() {      // Adicionando o valor do input me um array"
 };
 
     function analisar(){
+        ulResult.innerHTML = ''
         arrayNumeros.sort(function(a, b) {
             return a - b;
           });
