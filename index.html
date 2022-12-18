@@ -14,22 +14,26 @@
     <div class="main-content">
         <div class="card-main">
             <h1>Analisador de números</h1>
-            <div class=input-div>
-                <p>Adicione um número entre 1 e 100:</p>
-                <div class="input-div-intern">
-                    <input type="number" id="inputValor" max="100" min="1">
-                    <button id="adicionandoValor">Adicionar número</button>
+            <div class="div-analisador">
+                <div class=input-div>
+                    <span>Adicione um número entre 1 e 100:</p>
+                    <div class="input-div-intern">
+                        <input type="number" id="inputValor" max="100" min="1">
+                        <button id="adicionandoValor">Adicionar número</button>
+                    </div>
                 </div>
-            </div>
-            <div class="caixa-de-texto">
-                <div id="valoresAdicionados">
-                    <ul id="listaMostrada">
+                <div class="form-submit">
+                    <div class="caixa-de-texto">
+                        <div id="valoresAdicionados">
+                            <ul id="listaMostrada">
 
-                    </ul>
+                            </ul>
+                        </div>
+                    </div>
+                    <button id="analisar">Analisar</button>
                 </div>
             </div>
             <div id="caixaResultado">
-                <button id="analisar">Analisar</button>
                 <div id="resultadoText">
                     <ul id="listaResultados">
 
@@ -39,7 +43,7 @@
         </div>
     </div>
     <footer>
-        <p>Criado por Maycom Willams</p>
+        <span>Criado por Maycom Willams</span>
     </footer>
     <script src="script.js"></script>
 </body>
