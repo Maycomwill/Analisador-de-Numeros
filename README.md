@@ -39,5 +39,10 @@
  <img src="https://github.com/Maycomwill/Analisador-de-Numeros/blob/main/assets/4.jpg?raw=true" width: 400px/>
  </div>
 
+## 📝 License
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
 
 Créditos pelo favicon: [Favicon.io](https://favicon.io/)
